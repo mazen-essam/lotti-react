@@ -1,0 +1,198 @@
+#root {
+   max-width: 1300px;
+   margin: 0 auto;
+   padding: 2rem;
+   text-align: center;
+}
+body {
+   background-color: #092045;
+   background-image: linear-gradient(#092045, #010a1d 50%);
+   position: relative;
+}
+.tabs {
+   margin-bottom: 5rem;
+}
+.img {
+   overflow: hidden;
+   position: relative;
+   color: #fff;
+}
+.img img {
+   border-radius: 30px;
+}
+.overlay1 {
+   position: absolute;
+   background-color: rgba(6, 15, 50, 0.15);
+   padding: 1rem 1rem;
+   right: 40px;
+   top: 20px;
+   bottom: 20px;
+   width: 40%;
+   height: 80%;
+   margin: auto;
+   text-align: center;
+   font-size: 1.2rem;
+   border-radius: 20px;
+   transition: all 0.5s;
+}
+.overlay1:hover {
+   height: 90%;
+   right: 20px;
+   width: 45%;
+   padding: 1.5rem;
+}
+.overlay1 ul {
+   list-style: none;
+}
+.overlay1 ul li {
+   list-style: none;
+   margin-top: 1rem;
+}
+.overlay {
+   position: absolute;
+   background-color: rgba(6, 15, 50, 0.45);
+   bottom: 10px;
+   width: 80%;
+   margin: auto;
+   height: 3rem;
+   left: 10px;
+   right: 10px;
+   border-radius: 20px;
+   transition: all 0.5s;
+}
+.robots{
+  margin-bottom: 10rem;
+}
+.img:hover .overlay{
+ width: 90%;
+}
+.overlay p {
+   margin: 5px;
+   margin-top: 0.6rem;
+}
+.img img {
+   width: 100%;
+}
+.bf-gradient.small {
+   background-image: linear-gradient(
+         rgba(105, 75, 15, 0.49),
+         rgba(105, 75, 15, 0.49)
+      ),
+      linear-gradient(135deg, #bf953f, #fcf6ba 49%, #b38728);
+   margin-right: 0;
+   font-size: 20px;
+   line-height: 1.2;
+}
+.bf-gradient {
+   -webkit-text-fill-color: transparent;
+   background-image: linear-gradient(90deg, #bf953f, #fcf6ba 17%, #b38728);
+   -webkit-background-clip: text;
+   background-clip: text;
+   margin-right: 20px;
+   font-family: Inter, sans-serif;
+   font-size: 37px;
+   font-weight: 700;
+   line-height: 1;
+}
+.bottom-bar {
+   position: fixed;
+   bottom: 30px;
+   width: 80%;
+   margin: auto;
+   left: 0px;
+   right: 0px;
+   border-radius: 50px;
+   background-color: #fff;
+}
+.number {
+   color: #fff;
+   background-color: #000;
+   line-height: 1.4;
+   padding: 6px 10px;
+   border-radius: 10px;
+   font-size: 1.3rem;
+}
+
+i {
+   font-size: 24px;
+}
+.red {
+   color: red !important;
+}
+.green {
+   color: green !important;
+}
+.blue {
+   color: blue !important;
+}
+.lotti_cont {
+   border-radius: 20px;
+   background-color: aqua;
+}
+.color-1 {
+   background-color: #8e44ad; /* Darker Violet */
+}
+
+.color-2 {
+   background-color: #2980b9; /* Darker Indigo */
+}
+
+.color-3 {
+   background-color: #27ae60; /* Darker Green */
+}
+
+.color-4 {
+   background-color: #f39c12; /* Darker Orange */
+}
+.typeAnim {
+   font-size: 4rem;
+   margin-top: 2rem;
+   margin-bottom: 6rem;
+   color: #fff;
+}
+.lottie_text {
+}
+.bottom-bar {
+}
+.slick-arrow {
+   display: none !important;
+}
+button:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled) {
+   color: #fff;
+}
+.button {
+   background-image: linear-gradient(135deg, #bf953f, #fcf6ba 51%, #bf953f);
+   color: var(--blackish-blue);
+   padding: 14px 41px;
+   font-size: 1rem;
+   font-weight: 700;
+   color: #000 !important;
+   border-radius: 48px;
+   transition: all 0.5s;
+   border: none;
+}
+.button:hover {
+   font-size: 1.1rem;
+   border: none;
+}
+.slider {
+   margin-top: 2rem;
+   margin-bottom: 4rem;
+}
+@keyframes logo-spin {
+   from {
+      transform: rotate(0deg);
+   }
+   to {
+      transform: rotate(360deg);
+   }
+}
+
+@media screen and (max-width: 992px) {
+   .bottom-bar {
+      display: none;
+   }
+}
